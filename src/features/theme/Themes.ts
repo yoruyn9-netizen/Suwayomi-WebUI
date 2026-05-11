@@ -47,8 +47,7 @@ export const themes = {
     lavender: {
         isCustom: false,
         getName: () => t`Lavender`,
-        muiTheme: {
-            colorSchemes: {
+        muiTheme: {            colorSchemes: {
                 light: {
                     palette: {
                         primary: {
@@ -97,8 +96,7 @@ export const themes = {
                 },
                 dark: {
                     palette: {
-                        primary: {
-                            main: '#897869',
+                        primary: {                            main: '#897869',
                         },
                         secondary: {
                             main: '#697a89',
@@ -147,8 +145,7 @@ export const themes = {
             colorSchemes: {
                 light: {
                     palette: {
-                        primary: {
-                            main: '#53a584',
+                        primary: {                            main: '#53a584',
                         },
                         secondary: {
                             main: '#a55374',
@@ -197,8 +194,7 @@ export const themes = {
                         },
                     },
                 },
-            },
-        },
+            },        },
     },
     crimson: {
         isCustom: false,
@@ -247,8 +243,7 @@ export const themes = {
                         },
                     },
                 },
-                dark: {
-                    palette: {
+                dark: {                    palette: {
                         primary: {
                             main: '#5CE6A1',
                         },
@@ -297,8 +292,7 @@ export const themes = {
         getName: () => t`Bright Pink`,
         muiTheme: {
             colorSchemes: {
-                light: {
-                    palette: {
+                light: {                    palette: {
                         primary: {
                             main: '#FF007F',
                         },
@@ -347,8 +341,7 @@ export const themes = {
                 },
             },
         },
-    },
-    'tree frog green': {
+    },    'tree frog green': {
         isCustom: false,
         getName: () => t`Tree Frog Green`,
         muiTheme: {
@@ -397,8 +390,7 @@ export const themes = {
                             paper: '#efefef',
                             default: '#fff',
                         },
-                    },
-                },
+                    },                },
                 dark: {
                     palette: {
                         primary: {
@@ -406,6 +398,49 @@ export const themes = {
                         },
                         secondary: {
                             main: '#000',
+                        },
+                    },
+                },
+            },
+        },
+    },
+    'shinigami': {
+        isCustom: false,
+        getName: () => t`Shinigami`,
+        muiTheme: {
+            colorSchemes: {
+                light: {
+                    palette: {
+                        primary: {
+                            main: '#7c3aed',
+                        },
+                        secondary: {
+                            main: '#3b82f6',
+                        },
+                        background: {
+                            paper: '#f5f5f5',
+                            default: '#fafafa',
+                        },
+                        text: {
+                            primary: '#1a1a1a',
+                            secondary: '#4a4a4a',
+                        },
+                    },
+                },
+                dark: {
+                    palette: {
+                        primary: {
+                            main: '#7c3aed',
+                        },
+                        secondary: {
+                            main: '#3b82f6',
+                        },
+                        background: {
+                            paper: '#1a1a1a',
+                            default: '#0f0f0f',
+                        },
+                        text: {                            primary: '#ffffff',
+                            secondary: '#b3b3b3',
                         },
                     },
                 },
